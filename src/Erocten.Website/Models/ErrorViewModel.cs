@@ -1,9 +1,17 @@
-namespace Erocten.Website.Models
-{
-    public class ErrorViewModel
-    {
-        public string? RequestId { get; set; }
+﻿namespace Erocten.Website.Models;
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-    }
+/// <summary>
+/// 错误视图模型。
+/// </summary>
+public class ErrorViewModel
+{
+    /// <summary>
+    /// 请求Id。
+    /// </summary>
+    public string? RequestId { get; set; }
+
+    /// <summary>
+    /// 是否显示请求Id。
+    /// </summary>
+    public bool ShowRequestId => !string.IsNullOrEmpty(this.RequestId);
 }
