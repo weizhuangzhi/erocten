@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Using Include="System.Diagnostics" />
+    <Using Include="Microsoft.AspNetCore.Mvc" />
+    <Using Include="Erocten.Website.Models" />
+  </ItemGroup>
+
 </Project>
