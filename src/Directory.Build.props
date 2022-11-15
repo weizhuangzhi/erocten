@@ -16,6 +16,8 @@
   <ItemGroup>
     <Using Include="Microsoft.AspNetCore.Mvc" />
     <Using Include="System.Diagnostics" />
+    <Using Include="System.Text.Encodings.Web" />
+    <Using Include="System.Text.Unicode" />
   </ItemGroup>
 
 </Project>
