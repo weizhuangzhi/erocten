@@ -1,5 +1,8 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
+// 设置Server标头不包含在每个响应中。
+builder.WebHost.ConfigureKestrel(serverOptions => { serverOptions.AddServerHeader = false; });
+
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
 builder.Services.AddSession();
