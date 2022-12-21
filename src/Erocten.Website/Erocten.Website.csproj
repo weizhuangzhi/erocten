@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Using Include="Microsoft.AspNetCore.Mvc" />
     <Using Include="Erocten.Website.Models" />
   </ItemGroup>
 
