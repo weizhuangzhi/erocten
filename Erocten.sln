@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erocten.Foundation.EntityFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erocten.Foundation.Abstractions", "src\Erocten.Foundation.Abstractions\Erocten.Foundation.Abstractions.csproj", "{1DCC86DD-F9C9-4809-B26C-85EA065A8767}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erocten.Modules.Common", "src\Erocten.Modules.Common\Erocten.Modules.Common.csproj", "{92975D5A-770B-45E3-B85B-C9A298A11B6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{1DCC86DD-F9C9-4809-B26C-85EA065A8767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DCC86DD-F9C9-4809-B26C-85EA065A8767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DCC86DD-F9C9-4809-B26C-85EA065A8767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92975D5A-770B-45E3-B85B-C9A298A11B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92975D5A-770B-45E3-B85B-C9A298A11B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92975D5A-770B-45E3-B85B-C9A298A11B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92975D5A-770B-45E3-B85B-C9A298A11B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
