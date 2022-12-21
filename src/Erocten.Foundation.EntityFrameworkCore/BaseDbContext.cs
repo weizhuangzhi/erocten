@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Erocten.Foundation.EntityFrameworkCore
+namespace Erocten.Foundation.EntityFrameworkCore;
+
+public class BaseDbContext : DbContext
 {
-    public class BaseDbContext : DbContext
-    {
-    }
 }
