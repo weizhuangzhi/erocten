@@ -9,7 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Erocten.Modules.Common\Erocten.Modules.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Microsoft.AspNetCore.Mvc" />
+    <Using Include="Microsoft.EntityFrameworkCore" />
+    <Using Include="Erocten.Foundation.EntityFrameworkCore" />
+    <Using Include="Erocten.Modules.Common.Data" />
+    <Using Include="Erocten.Modules.Common.Models" />
     <Using Include="Erocten.Website.Models" />
   </ItemGroup>
 

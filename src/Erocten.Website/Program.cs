@@ -10,6 +10,10 @@ builder.Services.AddSession();
 // 设置Web编码服务配置中允许由编码器以非转义形式表示的码位。
 builder.Services.AddWebEncoders(options => options.TextEncoderSettings = new TextEncoderSettings(UnicodeRanges.All));
 
+builder.Services.AddDbContext<CommonDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultContext") ?? throw new InvalidOperationException("Connection string 'DefaultContext' not found.")));
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
