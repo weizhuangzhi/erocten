@@ -1,10 +1,10 @@
 ﻿namespace Erocten.Modules.Common.Controllers
 {
-    public class HomeController : Controller
+    public class DemoController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<DemoController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public DemoController(ILogger<DemoController> logger)
         {
             _logger = logger;
         }

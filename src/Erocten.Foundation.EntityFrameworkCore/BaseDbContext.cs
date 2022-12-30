@@ -11,6 +11,6 @@ public class BaseDbContext : DbContext
 
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
     {
-        configurationBuilder.Conventions.Add(_ => new DiscriminatorLengthConvention());
+        configurationBuilder.Conventions.Add(_ => new MaxStringLengthConvention());
     }
 }
