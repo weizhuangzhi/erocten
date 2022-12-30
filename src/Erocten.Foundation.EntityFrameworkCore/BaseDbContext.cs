@@ -12,5 +12,6 @@ public class BaseDbContext : DbContext
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
     {
         configurationBuilder.Conventions.Add(_ => new MaxStringLengthConvention());
+        configurationBuilder.Conventions.Add(_ => new TableNameConvention());
     }
 }
