@@ -23,6 +23,7 @@
   <ItemGroup>
     <Using Include="System.Reflection" />
     <Using Include="Microsoft.AspNetCore.Mvc" />
+    <Using Include="Microsoft.AspNetCore.Mvc.ApplicationParts" />
     <Using Include="Microsoft.EntityFrameworkCore" />
     <Using Include="MediatR" />
     <Using Include="Erocten.Foundation.EntityFrameworkCore" />
