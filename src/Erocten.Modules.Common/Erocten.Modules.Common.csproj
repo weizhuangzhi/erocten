@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Erocten.Foundation.Abstractions\Erocten.Foundation.Abstractions.csproj" />
     <ProjectReference Include="..\Erocten.Foundation.EntityFrameworkCore\Erocten.Foundation.EntityFrameworkCore.csproj" />
   </ItemGroup>
 

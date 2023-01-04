@@ -1,16 +1,21 @@
-﻿namespace Erocten.Website.Controllers;
+﻿using Erocten.Foundation.Abstractions.Notification;
+
+namespace Erocten.Website.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> logger;
+    private readonly IMediator mediator;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IMediator mediator)
     {
         this.logger = logger;
+        this.mediator = mediator;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
+        await this.mediator.Publish(new AccessNotification());
         return this.View();
     }
 

@@ -13,6 +13,7 @@ builder.Services.AddWebEncoders(options => options.TextEncoderSettings = new Tex
 builder.Services.AddDbContext<CommonDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultContext") ?? throw new InvalidOperationException("Connection string 'DefaultContext' not found.")));
 
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly(), typeof(Demo).Assembly);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
