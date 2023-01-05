@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Erocten.Foundation.AspNetCore\Erocten.Foundation.AspNetCore.csproj" />
     <ProjectReference Include="..\Erocten.Modules.Common\Erocten.Modules.Common.csproj" />
   </ItemGroup>
 
@@ -26,6 +27,7 @@
     <Using Include="Microsoft.AspNetCore.Mvc.ApplicationParts" />
     <Using Include="Microsoft.EntityFrameworkCore" />
     <Using Include="MediatR" />
+    <Using Include="Erocten.Foundation.AspNetCore" />
     <Using Include="Erocten.Foundation.EntityFrameworkCore" />
     <Using Include="Erocten.Modules.Common.Data" />
     <Using Include="Erocten.Modules.Common.Models" />
