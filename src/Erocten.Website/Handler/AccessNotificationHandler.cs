@@ -1,6 +1,6 @@
 ﻿using Erocten.Foundation.Abstractions.Notification;
 
-namespace Erocten.Website.MediatR;
+namespace Erocten.Website.Handler;
 
 public class AccessNotificationHandler : INotificationHandler<AccessNotification>
 {

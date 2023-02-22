@@ -1,4 +1,4 @@
-﻿namespace Erocten.Foundation.EntityFrameworkCore;
+﻿namespace Erocten.Foundation.EntityFrameworkCore.DatabaseProvider;
 
 public class OracleDatabaseProvider : IDatabaseProvider
 {
