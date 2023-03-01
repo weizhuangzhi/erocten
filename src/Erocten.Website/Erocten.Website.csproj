@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Erocten.Foundation.AspNetCore\Erocten.Foundation.AspNetCore.csproj" />
+    <ProjectReference Include="..\Erocten.Foundation.Security\Erocten.Foundation.Security.csproj" />
     <ProjectReference Include="..\Erocten.Modules.Common\Erocten.Modules.Common.csproj" />
   </ItemGroup>
 

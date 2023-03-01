@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erocten.Foundation.Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erocten.Modules.Common", "src\Erocten.Modules.Common\Erocten.Modules.Common.csproj", "{92975D5A-770B-45E3-B85B-C9A298A11B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erocten.Foundation.AspNetCore", "src\Erocten.Foundation.AspNetCore\Erocten.Foundation.AspNetCore.csproj", "{02E1A130-3181-4682-805D-26C83B78E7C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erocten.Foundation.AspNetCore", "src\Erocten.Foundation.AspNetCore\Erocten.Foundation.AspNetCore.csproj", "{02E1A130-3181-4682-805D-26C83B78E7C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erocten.Foundation.Security", "src\Erocten.Foundation.Security\Erocten.Foundation.Security.csproj", "{F1630427-16F0-4C4A-A6E1-7C5AB15EAB82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,10 @@ Global
 		{02E1A130-3181-4682-805D-26C83B78E7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E1A130-3181-4682-805D-26C83B78E7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E1A130-3181-4682-805D-26C83B78E7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1630427-16F0-4C4A-A6E1-7C5AB15EAB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1630427-16F0-4C4A-A6E1-7C5AB15EAB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1630427-16F0-4C4A-A6E1-7C5AB15EAB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1630427-16F0-4C4A-A6E1-7C5AB15EAB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
