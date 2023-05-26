@@ -1,6 +1,6 @@
 ﻿namespace Erocten.Foundation.EntityFrameworkCore;
 
-public interface IDatabaseProvider
+public interface IDatabaseTypeProvider
 {
     string ProviderName { get; }
 }
